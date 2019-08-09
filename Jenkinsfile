@@ -4,6 +4,7 @@ node{
         
         echo "Current branch is ${env.BRANCH_NAME}"
         sh 'whoami'
+        echo 'muni'
     }
     
     stage('SCM checkout master'){
